@@ -8,12 +8,22 @@
     margin: auto;
 }
 
+li {
+    list-style: none;
+}
+
 .head {
     height: 40px;
     margin: 30px auto;
 }
 
 .logo {
+    float: left;
     width: 200px;
     height: 40px;
+}
+
+.nav{
+    float: left;
+    margin-left: 60px;
 }
