@@ -110,7 +110,24 @@ li {
     background-color: #1c036c;
 }
 
-.banner .w {  /*用这种方法可以对上面定义过的.w类针对.banner当中使用时做进一步定义*/
+.banner .w { /*用这种方法可以对上面定义过的.w类针对.banner当中使用时做进一步定义*/
     height: 420px;
     background: url("images/banner2_20190819_210028.png") no-repeat top center;
+}
+
+.subnav {
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.subnav li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+.subnav a {
+    font-size: 14px;
+    color: white;
 }
