@@ -50,7 +50,7 @@ li {
     color: #050505;
 }
 
-.nav ul li a:hover {  /*在鼠标经过的时候显示下划线的方法*/
+.nav ul li a:hover { /*在鼠标经过的时候显示下划线的方法*/
     border-bottom: 2px solid #00a4ff;
     color: #00a4ff;
 }
@@ -74,7 +74,7 @@ li {
     padding-left: 15px;
 }
 
-.search button {  /*按钮图片的写法*/
+.search button { /*按钮图片的写法*/
     float: left;
     width: 50px;
     height: 40px;
@@ -103,4 +103,14 @@ li {
     line-height: 40px;
     font-size: 14px;
     color: #666;
+}
+
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .w {  /*用这种方法可以对上面定义过的.w类针对.banner当中使用时做进一步定义*/
+    height: 420px;
+    background: url("images/banner2_20190819_210028.png") no-repeat top center;
 }
